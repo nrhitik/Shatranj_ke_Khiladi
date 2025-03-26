@@ -2,7 +2,7 @@ import json
 import datetime
 import google.generativeai as genai  
 
-genai.configure(api_key="AIzaSyA5cpRmMvzqH6avojZ_l0858xyyxdbSvMY")
+genai.configure(api_key="API KEY")
 
 def generate_travel_prompt(place_name, num_days, budget):
     prompt = f"""
